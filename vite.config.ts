@@ -13,7 +13,9 @@ import Layouts from 'vite-plugin-vue-layouts'
 export default defineConfig({
   plugins: [
     VueRouter({
-      /* options */
+      extendRoute(route) {
+        console.log(route.meta)
+      }
     }),
     vue(),
     Layouts({

@@ -7,4 +7,11 @@ const router = createRouter({
   routes: setupLayouts(routes)
 })
 
+router.beforeEach((to) => {
+  console.log(to)
+  if (to.meta?.requiresAuth) {
+    alert('hello auth')
+  }
+})
+
 export default router

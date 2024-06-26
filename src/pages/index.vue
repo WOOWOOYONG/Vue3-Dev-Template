@@ -6,10 +6,8 @@ const { count, inc, dec } = useCounter()
 </script>
 
 <template>
-  <section class="">
-    <h1 class="mb-10 mt-10 text-center text-2xl font-bold text-teal-700">
-      Hello this is home page.
-    </h1>
+  <section>
+    <h1 class="page-title text-teal-700">Hello this is home page.</h1>
     <div class="flex flex-col items-center gap-8">
       <h3>VueUse Example</h3>
       <p>Mouse: {{ x }} x {{ y }}</p>

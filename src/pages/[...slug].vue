@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <h1 class="font-bol mt-10 text-center text-2xl font-bold text-stone-500">404 NOT FOUND</h1>
+    <h1 class="page-title text-stone-500">404 NOT FOUND</h1>
   </div>
 </template>
 

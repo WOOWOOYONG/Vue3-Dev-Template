@@ -6,7 +6,9 @@ const route = useRoute()
 const memberId = computed(() => route.params.id)
 </script>
 <template>
-  <div>Member ID: {{ memberId }}</div>
+  <div>
+    <h1 class="page-title">Member ID: {{ memberId }}</h1>
+  </div>
 </template>
 
 <style scoped></style>
