@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="container">
-    <footer>This is Footer</footer>
-  </div>
+  <footer class="h-8 w-full bg-slate-100">
+    <div class="container"></div>
+  </footer>
 </template>
 
 <style scoped></style>
