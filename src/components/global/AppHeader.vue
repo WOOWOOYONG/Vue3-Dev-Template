@@ -6,6 +6,7 @@
       <ul class="flex items-center gap-3">
         <li><RouterLink to="/">Home</RouterLink></li>
         <li><RouterLink to="/about">About</RouterLink></li>
+        <li><RouterLink to="/user">User</RouterLink></li>
       </ul>
     </nav>
   </header>
