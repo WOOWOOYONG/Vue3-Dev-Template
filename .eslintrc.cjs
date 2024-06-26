@@ -14,5 +14,8 @@ module.exports = {
   },
   rules: {
     'vue/multi-word-component-names': 'off'
+  },
+  settings: {
+    'import/core-modules': ['vue-router/auto-routes']
   }
 }

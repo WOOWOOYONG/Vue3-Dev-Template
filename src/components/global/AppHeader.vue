@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <header class="flex justify-between">
+  <header class="container flex items-center justify-between">
     <div>This is Header</div>
     <nav>
       <ul class="flex items-center gap-3">

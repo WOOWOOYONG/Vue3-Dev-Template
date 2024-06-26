@@ -1,7 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <main>
+    <h1 class="mt-10 text-center text-2xl font-bold text-purple-500">Hello this is about page.</h1>
+  </main>
 </template>
 
 <style>

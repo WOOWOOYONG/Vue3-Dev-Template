@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <RouterView />
+  <div class="container">
+    <footer>This is Footer</footer>
+  </div>
 </template>
 
 <style scoped></style>

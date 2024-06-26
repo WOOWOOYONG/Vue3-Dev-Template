@@ -10,5 +10,10 @@
     {
       "path": "./tsconfig.vitest.json"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "module": "ES2015",
+    "moduleResolution": "Bundler",
+    "types": ["vite-plugin-vue-layouts/client"]
+  }
 }
