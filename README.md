@@ -1,5 +1,10 @@
 # my-vue3-dev-template
 
+## Environment
+
+- Node.js v20.14.0
+- pnpm v9.4.0
+
 ## Dependencies
 
 - Vue3
