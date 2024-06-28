@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { useMouse, useCounter } from '@vueuse/core'
+import BarChart from '@/components/charts/BarChart.vue'
+import LineChart from '@/components/charts/LineChart.vue'
 
 const { x, y } = useMouse()
 const { count, inc, dec } = useCounter()
@@ -16,6 +18,10 @@ const { count, inc, dec } = useCounter()
         <a @click="inc()" style="margin-right: 10px">+</a>
         <a @click="dec()">-</a>
       </div>
+    </div>
+    <div class="flex items-center">
+      <BarChart />
+      <LineChart />
     </div>
   </section>
 </template>

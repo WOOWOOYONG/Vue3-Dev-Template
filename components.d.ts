@@ -9,7 +9,10 @@ declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('./src/components/global/AppFooter.vue')['default']
     AppHeader: typeof import('./src/components/global/AppHeader.vue')['default']
+    BarChart: typeof import('./src/components/charts/BarChart.vue')['default']
+    Chart: typeof import('./src/components/Chart.vue')['default']
     Header: typeof import('./src/components/global/Header.vue')['default']
+    LineChart: typeof import('./src/components/charts/LineChart.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
