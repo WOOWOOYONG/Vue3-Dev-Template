@@ -3,6 +3,7 @@ import { useMouse, useCounter } from '@vueuse/core'
 
 const { x, y } = useMouse()
 const { count, inc, dec } = useCounter()
+console.log('log 這個應該會被移除')
 </script>
 
 <template>
@@ -13,7 +14,7 @@ const { count, inc, dec } = useCounter()
       <p>Mouse: {{ x }} x {{ y }}</p>
       <div>
         Counter: {{ count }}
-        <a @click="inc()" style="margin-right: 10px">+</a>
+        <a style="margin-right: 10px" @click="inc()">+</a>
         <a @click="dec()">-</a>
       </div>
     </div>
