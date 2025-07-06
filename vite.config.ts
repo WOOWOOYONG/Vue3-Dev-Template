@@ -20,7 +20,7 @@ export default defineConfig({
     vue(),
     Layouts({
       layoutsDirs: 'src/layouts',
-      defaultLayout: 'default'
+      defaultLayout: 'defaultLayout'
     }),
     vueDevTools(),
     Components(),
